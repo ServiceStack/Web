@@ -7,17 +7,17 @@ Releases for ServiceStack Web Apps.
 If you have Linux, OSX or [Windows Subsystem for Linux](https://msdn.microsoft.com/en-us/commandline/wsl/install_guide), 
 from the directory where all your Web Apps are, run:
 
-     curl -L https://github.com/NetCoreWebApps/Web/archive/v4.tar.gz | tar xz && mv Web-4 web
+     curl -L https://github.com/NetCoreWebApps/Web/archive/v0.1.tar.gz | tar xz && mv Web-0.1 web
 
 Otherwise for Windows without access to linux tools, download:
 
- - [Web v4.zip](https://github.com/NetCoreWebApps/Web/archive/v4.zip)
+ - [Web v0.1.zip](https://github.com/NetCoreWebApps/Web/archive/v0.1.zip)
 
 Then copy all contents into the `web` folder next to where all your Web Apps are.
 
 ## Usage
 
-To run install [.NET Core 2.0 for your platform](https://www.microsoft.com/net/download/core) then for Linux, OSX and Windows, run:
+To run install [.NET Core 2.1 for your platform](https://www.microsoft.com/net/download/core) then for Linux, OSX and Windows, run:
 
     dotnet web/app.dll ../<app name>/web.settings
 
